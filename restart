@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "stopp Service"
+svc -d /service/dbus-kostal_piko_legacy
+sleep 1
+echo "start Service"
+svc -u /service/dbus-kostal_piko_legacy
+sleep 1
+svstat /service/dbus-kostal_piko_legacy
+

@@ -1,0 +1,18 @@
+[INVERTER]
+host = 192.168.1.6
+port = 81
+busAddr = 255
+instance = 50
+interval = 1
+;position:  0 for AC-IN1, 1 for AC-OUT, 2 FOR AC-IN2
+position = 0 
+
+[DEFAULT]
+; Set logging level
+; ERROR = shows errors only
+; WARNING = shows ERROR and warnings
+; INFO = shows WARNING and running functions
+; DEBUG = shows INFO and data/values
+; default: WARNING
+logging = WARNING
+timezone = Europe\Berlin

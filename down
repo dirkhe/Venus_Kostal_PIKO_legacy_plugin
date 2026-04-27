@@ -1,0 +1,4 @@
+#!/bin/sh
+
+touch /data/.dbus-kostal_piko_legacy_disabled
+svc -d /service/dbus-kostal_piko_legacy

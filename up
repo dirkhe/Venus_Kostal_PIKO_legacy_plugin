@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [[ -f '/data/.dbus-kostal_piko_legacy_disabled' ]] ; then
+    rm /data/.dbus-kostal_piko_legacy_disabled
+fi  
+svc -u /service/dbus-kostal_piko_legacy
+
